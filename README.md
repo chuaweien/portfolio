@@ -8,7 +8,7 @@ Please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/we
 Objective of this project is to analyse the dataset and to use Linear Regression models to predict Sale Price. Through this exercise, we could potentially see which feature has more impact than the others.
 ### Using Kaggle Datasets
 #### [Titanic](https://github.com/cweien3008/portfolio/tree/main/Titanic) 
-Objective of this analysis is to predict the survival of passengers from the sinking Titanic.
+Objective of this analysis is to predict the survival of passengers from the sinking Titanic based on the features given in the dataset.
 
 #### Volatility
 #### NFL
