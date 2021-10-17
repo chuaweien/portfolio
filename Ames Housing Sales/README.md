@@ -18,43 +18,43 @@ There are 43 string categorical variables, and it needs to be converted into bin
 
 After the skew check, there are 19 columns which have an absolute skew value of above 0.75. One example is shown below (Figure 1) for ‘1stFlrSF’. It shows the before and after log transformation. This shall be done to all the 19 columns.
 
-![](Picture 1.png "Figure 1: Before and After Comparison of Log Transformation for 1stFlrSF")
-</br>Figure 1: Before and After Comparison of Log Transformation for 1stFlrSF
+![Figure 1: Before and After Comparison of Log Transformation for 1stFlrSF](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%201.png)
+<br>Figure 1: Before and After Comparison of Log Transformation for 1stFlrSF
 
 ### Linear Regression Models
 #### Simple Linear Regression
 Using Simple Linear Regression as baseline, first we did a StandardScaler to standardise the scales of all variables. We then plot a graph of Actual Sale Price vs Predicted Sale Price as can be seen below in Figure 2. There were a few outliers which cause the x-axis of the graph to be too huge. So, we ignore the outliers and restrict the x-axis scale as shown in Figure 3. We can observed there is linear regression between the Actual Sale Price and the Predicted Sale Price.
-![](Picture 2.png "Figure 2 Actual Sale Price vs Predicted Sale Price for Linear Regression")
-</br>Figure 2 Actual Sale Price vs Predicted Sale Price for Linear Regression
+![Figure 2 Actual Sale Price vs Predicted Sale Price for Linear Regression](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%202.png)
+<br>Figure 2 Actual Sale Price vs Predicted Sale Price for Linear Regression
 
-![](Picture 3.png "Figure 3 Actual Sale Price vs Predicted Sale Price for Linear Regression (with smaller x-axis)")
-</br>Figure 3 Actual Sale Price vs Predicted Sale Price for Linear Regression (with smaller x-axis)
+![Figure 3 Actual Sale Price vs Predicted Sale Price for Linear Regression (with smaller x-axis)](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%203.png)
+<br>Figure 3 Actual Sale Price vs Predicted Sale Price for Linear Regression (with smaller x-axis)
 
 #### Polynomial Transformation
 We assumed a polynomial degree of 2 and plotted a graph as shown in Figure 4. Due to the polynomial transformation, the outliers are not skewing the graph axes.
-![](Picture 4.png "Figure 4 Actual Sale Price vs Predicted Sale Price for Polynomial Feature")
-</br>Figure 4 Actual Sale Price vs Predicted Sale Price for Polynomial Feature
+![Figure 4 Actual Sale Price vs Predicted Sale Price for Polynomial Feature](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%204.png)
+<br>Figure 4 Actual Sale Price vs Predicted Sale Price for Polynomial Feature
 
 #### Regularization Regression
 ##### Ridge CV
 The alphas range used was [0.005, 0.05, 0.1, 0.3, 1, 3, 5, 10, 15, 30, 80], and the alpha used was 10.0. The graph generated can be seen in Figure 5.
-![](Picture 5.png "Figure 5 Actual Sale Price vs Predicted Sale Price for Ridge Regression")
-</br>Figure 5 Actual Sale Price vs Predicted Sale Price for Ridge Regression
+<br>![Figure 5 Actual Sale Price vs Predicted Sale Price for Ridge Regression](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%205.png)
+<br>Figure 5 Actual Sale Price vs Predicted Sale Price for Ridge Regression
 
 ##### Lasso CV
 The alphas range used was np.array([1e-5, 5e-5, 0.0001, 0.0005]), and the alpha used was 0.0005. The graph generated can be seen in Figure 6.
-![](Picture 6.png "Figure 6 Actual Sale Price vs Predicted Sale Price for Lasso Regression")
-</br>Figure 6 Actual Sale Price vs Predicted Sale Price for Lasso Regression
+<br>![Figure 6 Actual Sale Price vs Predicted Sale Price for Lasso Regression](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%206.png)
+<br>Figure 6 Actual Sale Price vs Predicted Sale Price for Lasso Regression
 
-![](Picture 7.png "Figure 7: RSME table of models")
-</br>Figure 7: RSME table of models
+![Figure 7: RSME table of models](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%207.png)
+<br>Figure 7: RSME table of models
 
 Then we calculate the Root Squared Mean Error of each model and compare them as shown in the table above (Figure 7). Ridge has the least Root Squared Mean Error which shows that it is the best model in this case. Also, as can be seen from the 4 graphs, Ridge has the least outliers from the linear trend.
 
 ### Key Findings & Insights
 
-![](Picture 8.png "Figure 8: Features and their coefficients (sorted from highest to lowest)")
-</br>Figure 8: Features and their coefficients (sorted from highest to lowest)
+![Figure 8: Features and their coefficients (sorted from highest to lowest)](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%208.png)
+<br>Figure 8: Features and their coefficients (sorted from highest to lowest)
 
 Using the Ridge CV model, out of 251 features, 10 of them have zero coefficients and 241 of them have non-zero coefficients. After sorting the values in ascending order, from Figure 8, Neighborhood_14, GrLiveArea, RoofMatl_6, 1stFlrSF and Neighborhood_21 are the top 5 features that have the most positive impact on the Sale Price. Whereas, BsmtQual_3, KitchenQual_2, KitchenQual_1, BmstQual_1 and PoolQC_1 are the top 5 features with the most negative impact on Sale Price.
 
