@@ -82,7 +82,7 @@ Figure 9 Correlation Heatmap After Processing
 
 ### Future Works
 For the next steps, we could tune some more parameters in the model. As shown in Figure 8, it seems that ‘Fare’ do have some correlations to survival rate. Perhaps we could add ‘Fare’ in and re-run the model again. 
-We should also collect more data so that our models will be more accurate. We could also try to run the data with other models to compare the F1 score and confusion matrix.
+We should also collect more data so that our models will be more accurate i.e. weight of passengers, etc. We could also try to run the data with other models to compare the F1 score and confusion matrix.
 
 
 
