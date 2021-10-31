@@ -17,7 +17,7 @@ Since both columns are strings, we need to convert them. First, we convert ‘CO
 ![Figure 3 Resulting Dataframe](https://github.com/cweien3008/portfolio/blob/main/CO2%20level%20(ppm)/Figures/Picture%203.png)\
 Figure 3: Resulting Dataframe					
 
-![Figure 4 Time VS CO2 Graph](https://github.com/cweien3008/portfolio/blob/main/CO2%20level%20(ppm)/Figures/Picture%204.png)\
+<img src="https://github.com/cweien3008/portfolio/blob/main/CO2%20level%20(ppm)/Figures/Picture%204.png" width="250">
 Figure 4: Time VS CO2 Graph
 
 We then plot the CO2 level against time in Figure 4. As can be seen from Figure 4, the data is not stationary as mean and variance changes over time. From the graph, we can observe that the trend is increasing with seasonality and residue components.
@@ -62,7 +62,7 @@ Figure 10: Test Data and LSTM Predictions
 #### SARIMA
 For the third model, we used SARIMA model with an order of (0,1,0) and seasonality of (0,1,1,12) to fit the dataframe. Figure 11 was generated from the model.
  
- ![Figure 11 Test Data and SARIMA Predictions](https://github.com/cweien3008/portfolio/blob/main/CO2%20level%20(ppm)/Figures/Picture%2011.png)\
+<img src="https://github.com/cweien3008/portfolio/blob/main/CO2%20level%20(ppm)/Figures/Picture%2011.png" width="250">
 Figure 11: Test Data and SARIMA Predictions
 
 As can be seen from the various graphs above, SARIMA is the best model out of the 3 because the predictions are the closest to the actual values and trend. Perhaps we do not have sufficient data to build a better Deep Learning models, maybe that is why they are not very accurate. 
