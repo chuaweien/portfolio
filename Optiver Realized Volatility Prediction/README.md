@@ -65,4 +65,4 @@ Deep Learning Models do not seem to be a good fit for this case.
 If possible, additional features could be added such as a rated public sentiment of the particular stock since stock prices could be affected by public opinions.
 
 ## Reference
-[Introduction to Financial Concepts and Data] (https://www.kaggle.com/jiashenliu/introduction-to-financial-concepts-and-data)
+[Introduction to Financial Concepts and Data](https://www.kaggle.com/jiashenliu/introduction-to-financial-concepts-and-data)
