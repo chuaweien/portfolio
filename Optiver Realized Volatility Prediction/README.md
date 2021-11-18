@@ -1,5 +1,5 @@
-# [Optiver Realized Volatility Prediction](https://www.kaggle.com/c/optiver-realized-volatility-prediction)
-In this project, the objective is to build models that will predict short-term volatility for hundreds of stocks across different sectors. In the given dataset from the Kaggle Competition, the available columns are as shown below. 
+# Optiver Realized Volatility Prediction
+In this project, the objective is to build models that will predict short-term volatility for hundreds of stocks across different sectors. The Kaggle Competition can be found [here](https://www.kaggle.com/c/optiver-realized-volatility-prediction). In the given dataset from the Kaggle Competition, the available columns are as shown below. 
 
 |Column| Description | Data Type|
 |---|---|---|
