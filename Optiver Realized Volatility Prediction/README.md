@@ -26,7 +26,7 @@ WAP = ![equation](https://latex.codecogs.com/svg.image?\frac{BidPrice_{1}&space;
 
 In order to compare price differences across different stocks, log transformation is applied on WAP in "log_return" column. NaN values are then replaced with "0".
 
-Due to the large amount of dataset, the notebooks are hosted in Google Cloud Platform Vertex AI.
+Due to the large amount of dataset, the notebooks are hosted in Google Cloud Platform Vertex AI. Links are in the title of the models.
 
 ### Models
 
