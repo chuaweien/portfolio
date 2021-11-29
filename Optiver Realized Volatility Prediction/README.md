@@ -17,7 +17,7 @@ In this project, the objective is to build models that will predict short-term v
 
 There are 11 columns and 167,253,289 rows.
 
-### Data Exploration adn Feature Engineering
+### Data Exploration and Feature Engineering
 Based on the available columns, Weighted Averaged Price (WAP) was calculated for instaneous stock valuation which . 
 
 WAP equation is as shown below:
