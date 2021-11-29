@@ -85,7 +85,7 @@ Figure 6 Confusion Matrix for AdaBoost
 Classification report was run for all the 3 models as shown in Figure 7 where LR represents Logistic Regression Classifier, EF represents Extra Trees Classifier and ABC represents AdaBoost Classifier. Based on Figure 7, AdaBoost is the best model because it has the highest weighted average F1 score.
  
 
-<img src="https://github.com/cweien3008/portfolio/blob/main/Titanic/Images/Picture%207.png" width="400"/>
+<img src="https://github.com/cweien3008/portfolio/blob/main/Titanic/Images/Figure7.png" width="400"/>
 Figure 7 Classification Report on all 3 models
 
 ### Key Findings and Insights
