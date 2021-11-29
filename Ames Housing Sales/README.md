@@ -47,9 +47,9 @@ The alphas range used was np.array([1e-5, 5e-5, 0.0001, 0.0005]), and the alpha 
 <br>Figure 6 Actual Sale Price vs Predicted Sale Price for Lasso Regression
 
 ![Figure 7: RSME table of models](https://github.com/cweien3008/portfolio/blob/main/Ames%20Housing%20Sales/Picture%207.png)
-<br>Figure 7: RSME table of models
+<br>Figure 7: RMSE table of models
 
-Then we calculate the Root Squared Mean Error of each model and compare them as shown in the table above (Figure 7). Ridge has the least Root Squared Mean Error which shows that it is the best model in this case. Also, as can be seen from the 4 graphs, Ridge has the least outliers from the linear trend.
+Then we calculate the Root Mean Square Error of each model and compare them as shown in the table above (Figure 7). Ridge has the least Root Mean Square Error which shows that it is the best model in this case. Also, as can be seen from the 4 graphs, Ridge has the least outliers from the linear trend.
 
 ### Key Findings & Insights
 
