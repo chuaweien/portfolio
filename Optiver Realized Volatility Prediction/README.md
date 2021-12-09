@@ -54,9 +54,9 @@ Based on the different models above, below is a summary of R2 scores and RMSPE. 
 |Linear Regression| -1.7466182328| 1.0000087618|
 
 ### Key Findings and Insights/ Future Works
-More could be done to fine tune the parameters in each model. 
+More could be done to fine tune the hyperparameters in each model. 
 
-For the Moving Average moel, further fine tuning of the number of samples in the moving average could potentially improve the model. Perhaps a graph could be plotted with number of samples against R2 scores and RMSPE.
+For the Moving Average model, further fine tuning of the number of samples in the moving average could potentially improve the model. Perhaps a graph could be plotted with number of samples against R2 scores and RMSPE.
 
 Whereas for the Linear Regression model, perhaps the test size or the way to train and test the model could be further investigated to improve it.
 
