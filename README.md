@@ -16,8 +16,6 @@ Objective of this project is to analyse the dataset and to use Linear Regression
 #### [CO2 Level](https://github.com/cweien3008/portfolio/tree/main/CO2%20level%20(ppm))
 The objective is to build a model that correctly predicts CO2 level (ppm) in Mauna Loa, Hawaii. We will be using both Deep Learning and SARIMA models for comparison. Once the model is ready, stakeholders could potentially use it to predict future CO2 level and prepare their residents for it.
 
-#### [Virgin America Airline](https://github.com/cweien3008/portfolio/tree/main/Virgin%20America%20Airline)
-The main objective is to analyse tweets mentioning Virgin America Airline using Long-Short Term Memory of Recurrent Neural Networks. This will help to train the model to understand what the tweets are about and perhaps could be used for text generation in the future to answer those tweets.
 
 ### Using Kaggle Datasets
 #### [Titanic](https://github.com/cweien3008/portfolio/tree/main/Titanic) 
