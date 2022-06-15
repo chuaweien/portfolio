@@ -21,6 +21,4 @@ The main objective is to analyse tweets mentioning Virgin America Airline using 
 Objective of this analysis is to predict the survival of passengers from the sinking Titanic based on the features given in the dataset.
 
 
-#### NFL
-
 ### [Advent of Code 2015](https://adventofcode.com/2015)
