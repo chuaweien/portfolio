@@ -3,12 +3,14 @@
 
 # misc 
 .idea/
+.ideas/
 .DS_Store
 __pycache__/
 
 # testing folders
 Docker-testing/
 Docker/
+Dockers/
 
 # ignore data folder
 data/
