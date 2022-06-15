@@ -11,6 +11,7 @@ __pycache__/
 Docker-testing/
 Docker/
 Dockers/
+Virgin_America_Airline/
 
 # ignore data folder
 data/
