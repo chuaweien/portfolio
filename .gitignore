@@ -1,0 +1,14 @@
+# ignore jupyter notebook checkpoints
+.ipynb_checkpoints
+
+# misc 
+.idea/
+.DS_Store
+__pycache__/
+
+# testing folders
+Docker-testing/
+Docker/
+
+# ignore data folder
+data/
