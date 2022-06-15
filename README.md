@@ -20,8 +20,6 @@ The main objective is to analyse tweets mentioning Virgin America Airline using 
 #### [Titanic](https://github.com/cweien3008/portfolio/tree/main/Titanic) 
 Objective of this analysis is to predict the survival of passengers from the sinking Titanic based on the features given in the dataset.
 
-#### [Optiver Realized Volatility Prediction](https://github.com/cweien3008/portfolio/tree/main/Optiver%20Realized%20Volatility%20Prediction)
-In this project, the objective is to build models that will predict short-term volatility for hundreds of stocks across different sectors. 
 
 #### NFL
 
