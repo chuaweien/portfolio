@@ -4,6 +4,9 @@ Portfolio of personal projects for self-learning and hobby. These projects are w
 Please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/wei-en-chua/).
 
 ## Projects
+#### [Workplace Emotion Detector](https://github.com/ytan101/workplace-emotion-detector)
+This project is based on the FER2013 dataset and is an implementation to try and detect different facial emotions using a Tensorflow implementation. Our primary usecase was to try and detect the faces of online meetings so that presenters can guage the audience reactions and get a live general sentiment on their audience.
+
 #### [Abalone](https://github.com/cweien3008/portfolio/tree/main/Abalone)
 The objective is to focus on clustering the data set to find similarity so that it can be used to predict the age of the abalone.
 
