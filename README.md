@@ -25,7 +25,7 @@ The objective is to build a model that correctly predicts CO2 level (ppm) in Mau
 Objective of this analysis is to predict the survival of passengers from the sinking Titanic based on the features given in the dataset.
 
 
-### Other Projects
+### Other Interest Projects
 ### [Wordle-Python](https://github.com/cweien3008/python-wordle)
 An attempt to recreate Wordle with Python
 ### [Advent of Code 2015](https://adventofcode.com/2015)
