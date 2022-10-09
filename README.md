@@ -7,6 +7,9 @@ Please feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/we
 #### [Workplace Emotion Detector](https://github.com/ytan101/workplace-emotion-detector)
 This project is based on the FER2013 dataset and is an implementation to try and detect different facial emotions using a Tensorflow implementation. Our primary usecase was to try and detect the faces of online meetings so that presenters can guage the audience reactions and get a live general sentiment on their audience.
 
+#### [Kedro Pipeline with KubeFlow and MLFlow](https://github.com/cweien3008/kedro-pipeline)
+Pipelining Iris Dataset with Kedro Framework and deploying on KubeFlow + MLFlow.
+
 #### [Abalone](https://github.com/cweien3008/portfolio/tree/main/Abalone)
 The objective is to focus on clustering the data set to find similarity so that it can be used to predict the age of the abalone.
 
@@ -22,4 +25,7 @@ The objective is to build a model that correctly predicts CO2 level (ppm) in Mau
 Objective of this analysis is to predict the survival of passengers from the sinking Titanic based on the features given in the dataset.
 
 
+### Other Projects
+### [Wordle-Python](https://github.com/cweien3008/python-wordle)
+An attempt to recreate Wordle with Python
 ### [Advent of Code 2015](https://adventofcode.com/2015)
